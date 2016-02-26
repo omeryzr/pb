@@ -1,0 +1,240 @@
+body {
+    padding-top: 70px;
+    font-family: 'nixie_oneregular', 'Courier New';
+
+}
+
+nav a {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    font-size: 20px;
+    height: 60px;
+
+}
+
+nav .navbar-toggle {
+    margin: 13px 15px 13px 0;
+}
+
+.navbar-inverse .navbar-brand > img {
+    height: 50px;
+    margin-top: -15px;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: #8c8c8c;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #000000;
+    font-size: 27px;
+}
+
+.navbar-brand {
+    font-size: 40px;
+}
+
+.navbar {
+    background: rgba(255, 255, 255, .5);
+}
+
+nav.navbar.shrink {
+    min-height: 35px;
+}
+
+nav.shrink a {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    font-size: 20px;
+    height: 40px;
+}
+
+nav.shrink .navbar-brand {
+    font-size: 25px;
+}
+
+nav.shrink .navbar-toggle {
+    padding: 4px 5px;
+    margin: 8px 15px 8px 0;
+}
+
+.glyphicon-time span {
+    margin-left: 4px;
+    font-size: 19px;
+    font-family: 'nixie_oneregular', 'Courier New';
+}
+
+span.glyphicon-time:before {
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+span.postauthor {
+    font-size: 20px;
+}
+
+span.postauthor > a {
+    text-decoration: none;
+    color: #9d9d9d;
+    margin-right: 10px;
+}
+
+span.postauthor > a:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+a.post-header {
+    font-size: 35px;
+    color: #9d9d9d;
+    height: 80px;
+    font-family: 'nixie_oneregular', 'Courier New';
+}
+
+a.post-header:hover {
+    text-decoration: none;
+    color: #000000;
+    font-size: 36px;
+}
+
+.dp {
+    transition: all 0.7s ease-in-out;
+}
+
+.dp:hover {
+    border: 2px solid #eee;
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    /*-webkit-font-smoothing:antialiased;*/
+}
+
+/*-start footer*/
+.footer-distributed {
+    background-color: #000000;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font-family: 'nixie_oneregular', 'Courier New';
+    font-size: 10px;
+    height: 50px;
+    bottom:0;
+    position: relative;
+
+
+}
+
+.footer-distributed:hover {
+    background: rgba(255, 255, 255, .5);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+    height: 50px;
+
+}
+
+.footer-distributed .footer-left {
+    float: left;
+    margin-left: 20px;
+    max-width: 280px;
+    color: #9d9d9d;
+}
+
+.footer-distributed .footer-left p {
+    color: #8f9296;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.footer-distributed .footer-right {
+    float: right;
+    margin-top: 6px;
+    margin-right: 6px;
+    max-width: 180px;
+}
+
+.footer-distributed .footer-right a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: #000000;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 5px;
+}
+
+.footer-distributed .footer-right a:hover {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: #ffffff;
+    border-radius: 2px;
+
+    font-size: 35px;
+    color: #000000;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 5px;
+}
+.push {
+    height: 345px;
+}
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+    .footer-distributed {
+        height: 90px;
+    }
+
+    .footer-distributed .footer-left p{
+        text-align: center;
+        margin-top: 0px;
+        margin-left: 45px;
+
+
+    }
+
+    .footer-distributed .footer-right {
+        text-align: center;
+
+    }
+
+    .footer-distributed .footer-right {
+        float: none;
+        margin: 0px auto 20px;
+    }
+
+    .footer-distributed .footer-left p.footer-links {
+        line-height: 1.8;
+    }
+}
+/* start single sort */
+
+.blogShort{ border-bottom:1px solid #ddd;}
+.add{background: #333; padding: 10%; height: 300px;}
+.btn-blog {
+    color: #ffffff;
+    background-color: #37d980;
+    border-color: #37d980;
+    border-radius:0;
+    margin-bottom:10px
+}
+.btn-blog:hover,
+.btn-blog:focus,
+.btn-blog:active,
+.btn-blog.active,
+.open .dropdown-toggle.btn-blog {
+    color: white;
+    background-color:#34ca78;
+    border-color: #34ca78;
+}
+article h2{color:#333333;}
+h2{color:#34ca78;}
+.margin10{margin-bottom:10px; margin-right:10px;}
