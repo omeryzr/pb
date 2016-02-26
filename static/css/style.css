@@ -1,6 +1,9 @@
 body {
     padding-top: 70px;
-    font-family: 'nixie_oneregular', 'Courier New';
+    font-family: 'Poiret One', cursive;
+    font-weight: 500;
+    font-size: 18px;
+
 
 }
 
@@ -61,7 +64,7 @@ nav.shrink .navbar-toggle {
 .glyphicon-time span {
     margin-left: 4px;
     font-size: 19px;
-    font-family: 'nixie_oneregular', 'Courier New';
+    font-family: 'Poiret One', cursive;
 }
 
 span.glyphicon-time:before {
@@ -88,7 +91,7 @@ a.post-header {
     font-size: 35px;
     color: #9d9d9d;
     height: 80px;
-    font-family: 'nixie_oneregular', 'Courier New';
+    font-family: 'Poiret One', cursive;
 }
 
 a.post-header:hover {
@@ -116,7 +119,7 @@ a.post-header:hover {
     box-sizing: border-box;
     width: 100%;
     text-align: left;
-    font-family: 'nixie_oneregular', 'Courier New';
+    font-family: 'Poiret One', cursive;
     font-size: 10px;
     height: 50px;
     bottom:0;
@@ -131,7 +134,7 @@ a.post-header:hover {
     box-sizing: border-box;
     width: 100%;
     text-align: left;
-    font: normal 16px sans-serif;
+    font-family: 'Poiret One', cursive;
     height: 50px;
 
 }
